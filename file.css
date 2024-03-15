@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dzcltcukw/image/upload/v1710421959/mobishaala_bg_img.png");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .heading {
+        font-size: 64px;
+    }
+}
+
+.caption {
+    color: #ffffff;
+    font-family: "Roboto";
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .caption {
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
+
+.span {
+    color: #ebdd1c;
+    font-weight: 600;
+}
+
+.video {
+    border-radius: 8px;
+}
+
+@media screen and (min-width:768px) {
+    .video {
+        width: 600px;
+        height: 300px;
+        border-radius: 16px;
+    }
+}
+
+.text {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (min-width:768px) {
+    .text {
+        font-size: 24px;
+    }
+}
+
+.text-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.text-highlight {
+    font-weight: 600;
+}
+
+.whatsapp-btn {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    background-color: #34eb40;
+    border: none;
+}
+
+.text-size {
+    font-size: 24px;
+}
+
+.vision-container {
+    background-color: #9c2742;
+}
+
+.list {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+@media screen and (min-width:768px) {
+    .list {
+        padding-left: 20px;
+        list-style-type: circle;
+    }
+}
